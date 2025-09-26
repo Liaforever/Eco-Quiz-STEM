@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Climate Quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 Climate Change Mini Quiz</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. Which gas is the main cause of global warming?</p>
+        <label><input type="radio" name="q1" value="1"> Carbon Dioxide (CO2)</label><br>
+        <label><input type="radio" name="q1" value="0"> Oxygen (O2)</label><br>
+        <label><input type="radio" name="q1" value="0"> Nitrogen (N2)</label><br>
+      </div>
+
+      <div class="question">
+        <p>2. What is a major effect of melting glaciers?</p>
+        <label><input type="radio" name="q2" value="1"> Rising sea levels</label><br>
+        <label><input type="radio" name="q2" value="0"> Decreasing CO2</label><br>
+        <label><input type="radio" name="q2" value="0"> More snowfall globally</label><br>
+      </div>
+
+      <div class="question">
+        <p>3. Which activity helps reduce climate change?</p>
+        <label><input type="radio" name="q3" value="1"> Using renewable energy</label><br>
+        <label><input type="radio" name="q3" value="0"> Driving more cars</label><br>
+        <label><input type="radio" name="q3" value="0"> Cutting down trees</label><br>
+      </div>
+
+      <div class="question">
+        <p>4. Deforestation contributes roughly what % of global greenhouse gas emissions?</p>
+        <label><input type="radio" name="q4" value="1"> 10%</label><br>
+        <label><input type="radio" name="q4" value="0"> 50%</label><br>
+        <label><input type="radio" name="q4" value="0"> 1%</label><br>
+      </div>
+
+      <div class="question">
+        <p>5. Which is a visible effect of climate change on oceans?</p>
+        <label><input type="radio" name="q5" value="1"> Coral bleaching</label><br>
+        <label><input type="radio" name="q5" value="0"> Ice formation</label><br>
+        <label><input type="radio" name="q5" value="0"> Decrease in salinity only</label><br>
+      </div>
+
+      <button type="button" onclick="calculateScore()">Submit Quiz</button>
+    </form>
+
+    <div id="levelResult"></div>
+
+    <p>Submit your email in our <a href="https://docs.google.com/forms/d/e/1FAIpQLSfR0UcGdo_Rb0dlXtJbjaEMbGy9EkWfKoduR_PG-XNnhvjXzA/viewform" target="_blank">Google Form</a> to receive a small video!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
